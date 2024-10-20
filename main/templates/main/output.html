@@ -1,0 +1,26 @@
+<!-- example_template.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вывод</title>
+    <style>
+       .word-wrap {
+           word-wrap: break-word;
+           white-space: pre-wrap;
+           margin: 10px;
+           padding: 10px;
+           line-height: 1.5;
+           background-color: #f9f9f9;
+           border-radius: 8px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       }
+    </style>
+</head>
+<body>
+    <h1>Ответ на вопрос:</h1>
+    <div class="word-wrap">
+        {{ variable }}
+    </div>
+</body>
+</html>
